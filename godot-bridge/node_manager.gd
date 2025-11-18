@@ -3,7 +3,7 @@ class_name NodeManager
 
 ## Handles node creation, deletion, property manipulation, and hierarchy management
 
-var scene_manager: SceneManager = null
+var scene_manager = null
 
 func _ready():
 	print("NodeManager initialized")

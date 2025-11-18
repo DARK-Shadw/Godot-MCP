@@ -3,7 +3,7 @@ class_name ScriptManager
 
 ## Handles script creation, modification, and attachment to nodes
 
-var scene_manager: SceneManager = null
+var scene_manager = null
 
 func _ready():
 	print("ScriptManager initialized")

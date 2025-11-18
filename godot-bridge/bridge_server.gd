@@ -7,15 +7,24 @@ extends Node
 const PORT = 8765
 const HOST = "127.0.0.1"
 
+# Preload manager scripts
+const SceneManager = preload("res://scene_manager.gd")
+const NodeManager = preload("res://node_manager.gd")
+const ScriptManager = preload("res://script_manager.gd")
+const CSGManager = preload("res://csg_manager.gd")
+const GameExecutor = preload("res://game_executor.gd")
+const InputSimulator = preload("res://input_simulator.gd")
+const CaptureManager = preload("res://capture_manager.gd")
+
 var server: TCPServer
 var clients: Array[StreamPeerTCP] = []
-var scene_manager: SceneManager
-var node_manager: NodeManager
-var script_manager: ScriptManager
-var csg_manager: CSGManager
-var game_executor: GameExecutor
-var input_simulator: InputSimulator
-var capture_manager: CaptureManager
+var scene_manager
+var node_manager
+var script_manager
+var csg_manager
+var game_executor
+var input_simulator
+var capture_manager
 
 func _ready():
 	print("=== Godot MCP Bridge Server ===")

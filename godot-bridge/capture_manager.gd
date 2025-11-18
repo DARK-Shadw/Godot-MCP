@@ -3,7 +3,7 @@ class_name CaptureManager
 
 ## Handles screenshot and video capture
 
-var game_executor: GameExecutor = null
+var game_executor = null
 var is_recording: bool = false
 var video_frames: Array[Image] = []
 var video_output_path: String = ""

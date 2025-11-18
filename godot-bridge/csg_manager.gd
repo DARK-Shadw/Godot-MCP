@@ -3,7 +3,7 @@ class_name CSGManager
 
 ## Handles CSG (Constructive Solid Geometry) shape creation and operations
 
-var scene_manager: SceneManager = null
+var scene_manager = null
 
 func _ready():
 	print("CSGManager initialized")

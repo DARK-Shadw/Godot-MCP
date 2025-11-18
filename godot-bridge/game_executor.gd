@@ -3,7 +3,7 @@ class_name GameExecutor
 
 ## Handles game scene execution (play, pause, stop)
 
-var scene_manager: SceneManager = null
+var scene_manager = null
 var running_scene: Node = null
 var is_running: bool = false
 var game_viewport: SubViewport = null

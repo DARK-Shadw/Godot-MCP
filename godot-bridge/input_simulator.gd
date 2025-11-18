@@ -3,7 +3,7 @@ class_name InputSimulator
 
 ## Handles input simulation (keyboard, mouse, controller)
 
-var game_executor: GameExecutor = null
+var game_executor = null
 
 func _ready():
 	print("InputSimulator initialized")
