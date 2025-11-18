@@ -1,5 +1,4 @@
 extends Node
-class_name InputSimulator
 
 ## Handles input simulation (keyboard, mouse, controller)
 

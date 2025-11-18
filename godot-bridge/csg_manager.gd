@@ -1,5 +1,4 @@
 extends Node
-class_name CSGManager
 
 ## Handles CSG (Constructive Solid Geometry) shape creation and operations
 

@@ -1,5 +1,4 @@
 extends Node
-class_name SceneManager
 
 ## Handles scene creation, loading, saving, and management
 

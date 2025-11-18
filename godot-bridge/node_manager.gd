@@ -1,5 +1,4 @@
 extends Node
-class_name NodeManager
 
 ## Handles node creation, deletion, property manipulation, and hierarchy management
 

@@ -1,5 +1,4 @@
 extends Node
-class_name GameExecutor
 
 ## Handles game scene execution (play, pause, stop)
 
